@@ -1,0 +1,116 @@
+html,body{
+    background-color:#0B0909;
+    color:#D6D6D6;
+    font-family:'Open Sans', Arial, sans-serif;
+    line-height:1.2;
+    min-width:290px;
+  }
+  #navbar{
+    position:fixed;
+    min-width:290px;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:100%;
+    border-right:solid;
+    border-color:#8c8c8c;
+  }
+  header{
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+  }
+  #navbar ul{
+    height:88%;
+    padding:0;
+    overflow-y:auto;
+    overflow-x:hidden;
+  }
+  #navbar li{
+    color:#8C8C8C;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #44444C;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #main-doc header {
+    text-align: left;
+    margin: 0px;
+  }
+  #main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+  
+  section article {
+    color: #4d4e53;
+    margin: 15px;
+    font-size: 0.96em;
+  }
+  section header{
+    color:#8C8C8C;
+  }
+  section li {
+    margin: 15px 0px 0px 20px;
+  }
+  @media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #navbar ul {
+      border: 1px solid;
+      height: 207px;
+    }
+  
+    #navbar {
+      background-color: white;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 275px;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid;
+    }
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 270px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
+  
+  }
+video{
+    height:764px !important;
+    width:860px !important;
+    padding:0 100px;
+    padding-left: 269px;
+    margin:0 auto;
+    border-radius:5px !important;
+    justify-content: center;
+    position: absolute;
+
+  }
+  h2{
+    font-style: oblique;
+    color:#D6D6D6;
+  }
+  p{
+    color:#8C8C8C;
+  }
